@@ -222,13 +222,9 @@ ServerSignature Off
 #   no-www.org/faq.php?q=class_b
 <IfModule mod_rewrite.c>
   RewriteEngine On
- 	 RewriteBase /resources/final/
-   
-
-	 RewriteCond %{REQUEST_FILENAME} !-f
-   RewriteCond %{REQUEST_FILENAME} !-d
-	 RewriteRule ^(.*)$ index.php/$1 [L]
-
+ 	RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
 </IfModule>
 
 

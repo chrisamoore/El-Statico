@@ -2,6 +2,7 @@ body{
 	background:#eee;
 	font:13px/1.6 Arial, Helvetica, sans-serif;
 }
+strong{font-weight:bold;}
 #sitewrap{
 	padding:20px;
 	background:#fff;
@@ -176,6 +177,6 @@ pre + pre,pre + h2{
 	color:#555;
 	margin:3px 0 18px 0;
 }
-p+p{
+p+p,pre+p,p+h2{
 	margin-top:12px;
 }

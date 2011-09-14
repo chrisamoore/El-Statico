@@ -245,7 +245,7 @@ $menu =
 			array('Usage', 'home'),
 			
 			// Primary Nav 1 Section Links
-			array('Primary Nav 1', '#' ,
+			array('Example Nav 1', '#' ,
 				// submenu	
 				array(
 					array('Subnav 1','sub-nav-1'),
@@ -257,7 +257,7 @@ $menu =
 			
 			
 			// Another Nav 2 Section Links
-			array('Another Nav 2', '#' ,
+			array('Example Nav 2', '#' ,
 				// submenu	
 				array(
 					// has sub submenu
@@ -267,12 +267,12 @@ $menu =
 										array('Subplus 1','Subplus-1'),	
 										array('Subplus 2','Subplus 2')
 					)),
-					array('Plus 2','Plus 2')
+					array('Plus 2','Plus+2')
 			)),
 			// ^ ^ End Another Nav 2 Section Links
 			
 			// Almost Nav 3 Section Links
-			array('Almost Nav 3', '#' ,
+			array('Example Nav 3', '#' ,
 				// submenu	
 				array(
 				
@@ -283,7 +283,7 @@ $menu =
 			// ^ ^ End Almost Nav 3 Section Links
 			
 			// Last Nav 4 Link
-			array('Last Nav 4', 'last-nav')
+			array('Last Example 4', 'last-nav')
 		);
 
 $page['menu'] = new_menu($menu);

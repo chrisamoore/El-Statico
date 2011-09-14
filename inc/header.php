@@ -30,6 +30,14 @@
     	<ul><?php echo $page['menu']; ?></ul>
 </nav>
 <aside id="sidebar">
-<?php echo $page['subpages']; ?>
+<?php if(isset($homesidebar)){?>
+<ul class="sub-menu">
+	<li><a href="#install">Installation</a></li>
+	<li><a href="#vars-site">Site Wide Variables</a></li>
+	<li><a href="#vars-page">Page Specific Variables</a></li>
+	<li><a href="#structure-site">Example Site Structure</a></li>
+	<li><a href="#structure-page">Example Page Structure</a></li>
+</ul>
+<?php } else { echo $page['subpages'];} ?>
 </aside>
 <section id="content">
