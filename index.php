@@ -265,7 +265,7 @@ $menu =
 								array(
 										// sub submenu	
 										array('Subplus 1','Subplus-1'),	
-										array('Subplus 2','Subplus 2')
+										array('Subplus 2','Subplus-2')
 					)),
 					array('Plus 2','Plus+2')
 			)),

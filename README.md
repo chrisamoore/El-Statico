@@ -3,7 +3,7 @@
   <h2 id="install">Installation</h2>
   <p><strong>STEP 1::</strong> Set the index.php to the root of the website you want to install on.</p>
   <p><strong>STEP 2::</strong> Set site configuration</p>
-  <pre><code>$site['URL'] = "http://yourdomain.com/index.php/";</code></pre>
+  <pre><code>$site['URL'] = "http://yourdomain.com/index.php/";  </code></pre>
   <p>If you have your <strong>.htaccess</strong> set you can remove the .php from the $site['URL']</p>
    <pre><code><IfModule mod_rewrite.c>RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -33,7 +33,8 @@ array('Example Nav 1', '#' ,
 		)),
 	))
 );</code></pre>
-  	<h2 id="vars-site">Site Wide Variables</h2>
+
+<h2 id="vars-site">Site Wide Variables</h2>
     <pre><code>$site['domain']
 $site['default']
 $site[%custom%]*</code></pre>
