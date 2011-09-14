@@ -35,7 +35,7 @@ array('Example Nav 1', '#' ,
 );</code></pre>
 
 <h2 id="vars-site">Site Wide Variables</h2>
-    <pre><code>$site['domain']
+<pre><code>$site['domain']
 $site['default']
 $site[%custom%]*</code></pre>
 <span class="explain">* define $site[%custom%] = ''; settings in index.php config</span>
